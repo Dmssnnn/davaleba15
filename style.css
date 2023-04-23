@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    max-width: 1300px;
+    margin: 0 auto;
+    width: 100%;
+}
+.logo-content {
+    padding-top: 10px;
+    display: flex;
+    font-family: signpainter;
+}
+.header-container {
+    display: flex;
+}
+.header-container h2 {
+    padding-top: 10px;
+    padding-left: 5px;
+}
+nav {
+    padding-top: 20px;
+    display: flex;
+    padding-left: 510px;
+}
+
+ul {
+    display: flex;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 30px;
+    color: black;
+    font-family: signpainter;
+}
+nav img {
+    padding-left: 5px;
+    width: 40px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1300px;
+    height: 950px;
+    width: 100%;
+    
+}
+.main-picture {
+  max-width: 1300px;
+  background-color: blue;
+}
+.main-picture img{
+    width: 1300px;
+    position: absolute;
+} 
+.main-picture .arrow {
+    position: absolute;
+    width: 50px;
+    background-color: gray;
+    top: 500px;
+}
+.main-picture .right-arrow {
+    position: absolute;
+    width:50px;
+    margin-left: 1250px;
+    top: 500px;
+    background-color: gray;
+}
+.main-picture-text {
+    position: relative;
+    top: 400px;
+    text-align: center;
+}
+.main-picture-text h2 {
+    font-size: 80px;
+    color: #835353;
+    font-family: signpainter;
+}
+.main-picture-text p {
+    color: #835353;
+    font-size: 40px;
+    font-family: signpainter;
+}
+.main-picture-button {
+    position: relative;
+    padding-top: 500px;
+}
+.main-picture-button button{
+    text-align: center;
+    margin-left: 580px;
+    font-size: 20px;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 10%;
+    font-family: signpainter;
+}
+.main-picture-dots {
+    position: relative;
+    color: white;
+    margin-top: 60px;
+    margin-left: 580px;
+}
+.main-picture-dots span {
+    font-size:80px;
+}
+.main-picture-dots .gray-dot {
+    color: gray;
+}
+.design-history-text h1 {
+    font-size: 100px;
+    color: #966565;
+    font-family: signpainter;
+}
+.design-history-content {
+    padding-top: 200px;
+    display: flex;
+    width: 1300px;
+}
+.design-history-text p {
+    padding-top: 100px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: signpainter;
+    width: 70%;
+}
+.design-history-picture img {
+    width: 700px;
+    border-radius: 77px;
+}
+.blocks {
+    display: inline-block;
+    width: 320px;
+    height: 500px;
+    vertical-align: top;
+}
+.section-block-picture img {
+    width: 300px;
+    height: 350px;
+    border-radius: 77px;
+}
+.section-block-text h2 {
+    text-align: center;
+    font-family: signpainter;
+    font-size: 45px;
+    color: #966565;
+}
+.section-block-text p {
+    width: 303px;
+    font-size: 25px;
+    font-family: signpainter;
+    text-align: center;
+    opacity: 1;
+    font-weight: 700;
+}
+.section-block-text {
+    padding-top: 50px;
+}
+.users-title {
+    font-size: 45px;
+    color: #966565;
+    font-family: signpainter;
+}
+.percentage {
+    width: 1000px;
+    height: 50px;
+    margin-top: 100px;
+    background-color: green;
+}
+.sofa-content {
+    margin-top: 100px;
+    width: 1000px;
+    height: 70px;
+    
+}
+.sofa-content-text {
+    display: flex;
+}
+.sofa-content span {
+    font-size: 30px;
+    padding-left: 670px;
+    color: #966565;
+}
+.sofa-content h6 {
+    font-size: 40px;
+    padding-left: 50px;
+    font-weight: 100;
+}
+.sofa-line {
+    width: 1000px;
+    height: 43px;
+background-color:#F7F7F8;
+    border: 1px solid #707070;
+    border-radius: 80px;
+    opacity: 1;
+}
+.front-line {
+    width: 80%;
+    height: 40px;
+    border-radius: 80px;
+    background-color: #F0ECEC;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.elsie-de-wolfe-image img {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #707070;
+    opacity: 1;
+    border-radius: 50%;
+}
+.elsie-de-wolfe-content {
+    display: flex;
+}
+.elsie-de-wolfe-text p {
+    padding-left: 20px;
+    font-size: 90px;
+    color: #966565;
+    font-family: signpainter;
+}
+.kitchen-cabinet-content {
+    margin-top: 30px;
+}
+.for-kitchen-text {
+    width: 50%;
+    height:250px;
+}
+.for-kitchen-text h2 {
+    text-align: center;
+    font-size: 80px;
+    color: #966565;
+    font-family: signpainter;
+}
+.for-kitchen-text h6 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.for-kitchen-text button {
+    margin-top: 30px;
+    margin-left: 250px;
+    font-size: 20px;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 10%;
+    font-family: signpainter;
+}
+.for-kitchen-picture img {
+    width: 650px;
+    height: 250px;
+}
+.kitchen-cabinet-content {
+    display: flex;
+}
+.footer-title {
+    margin-top: 200px;
+}
+.footer-title h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: signpainter;
+}
+.footer-title h3 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 200;
+    color: #966565;
+}
